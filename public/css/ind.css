@@ -154,6 +154,18 @@ ul {
  
 }
 
+.brodax{
+  text-align:center;padding:15px;width:224px; background-color:#14cdee;border-radius:45px; color: #383737;
+}
+.brodax:hover{ z-index: 1; 
+  box-shadow: 0 1px 10px rgba(7, 205, 255 1.2) ;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);  color:#fff; text-decoration: none;
+}
+.brodax a{ color:#fff; text-decoration: none;
+}
+
+
 .dark {
   color: #fff;
 }
