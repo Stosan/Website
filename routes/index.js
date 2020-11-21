@@ -14,4 +14,12 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', {page:'Contact Us', menuId:'contact'});
 });
 
+router.get('/login', function(req, res, next) {
+  res.render('login', {page:'Log In', menuId:'login'});
+});
+
+
+router.get('/dashboard', function(req, res, next) {
+  res.render('dashboard', {page:'dashboard', menuId:'dashboard'});
+});
 module.exports = router;
