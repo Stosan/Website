@@ -102,7 +102,7 @@ color:blue
 
 
 .brodax{
-  text-align:center;padding:15px;width:224px; background-color:#14cdee;border-radius:45px; color: #383737;
+  text-align:center; background-color:#14cdee;border-radius:45px; color: #383737;
 }
 .brodax:hover{
    z-index: 1; 
@@ -212,6 +212,9 @@ ul {
    position: fixed; 
     bottom:0%;
   }
+  .brodax{
+    padding:15px;width:224px;
+   }
 }
 
 
@@ -222,26 +225,28 @@ ul {
   
 @media(max-width: 768px){
   .wrapper{ height: 7vh;}
+  .brand a{font-size: 1.8em;
+  }
   .top-social-icons li
   {
     display:inline;
     margin-bottom:4px
   }
   .top-social-icons a{
-    line-height:18px;
-    width:34px;
-    height:34px;
+    line-height:15px;
+    width:29px;
+    height:29px;
     margin-bottom: 14px;
   }
   .col-sm-6 .tlk1{
     padding: 15px;margin-top:120px;
   }
-  .col-sm-6 .tlk1 h5{ font-size: 1.2em;
+  .col-sm-6 .tlk1 h5{ font-size: 0.8em;
   }
-  .col-sm-6 .tlk1 h3{ font-size: 2.2em;
+  .col-sm-6 .tlk1 h3{ font-size: 1.4em;
   }
   .brodax{
-   width:174px;
+   width:174px;padding-bottom:5px;
   }
   .brodax a{
     font-size: 0.7em;
@@ -249,6 +254,6 @@ ul {
   .capper{
     margin-bottom: 20px;
   }
-    
+ 
 }
   

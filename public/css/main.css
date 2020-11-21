@@ -7,9 +7,6 @@ body{
    
  background-color: rgb(255, 255, 255);
  color: #747474;
-  
- 
-
 }
 
 .modal-backdrop {
@@ -17,12 +14,12 @@ body{
 }
 .wrapper{ font-weight: bold;
   border-bottom: 1px solid #e2e2e2 ; background-color: #14cdee; text-align: center;
-   font-family: 'Courier New', Courier, monospace; padding:0; 
+   font-family: 'Courier New', Courier, monospace; padding:0; z-index: 999;
 }
 
 .top-header{ background-color: #fff;
   box-shadow: 0 3px 6px rgba(32, 32, 32, 0.07), 0 2px 4px rgba(43, 42, 42, 0.09);
-  padding:10px;height:8vh
+  padding:10px;height:8vh;z-index: -999;
 }
 .top-header .container{margin:0}
 .brand a{
@@ -114,10 +111,10 @@ opacity: 0.7;
 opacity: 0.7;
 }
 .hamburger.is-active .hamburger-inner {
-background-color: #dfdb05;
+background-color: #10128a;
 }
 .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
-background-color: #dfdb05;
+background-color: #10128a;
 }
 
 .hamburger-box {
@@ -133,7 +130,7 @@ top: 50%;
 margin-top: -2px;
 width: 35px;
 height: 3px;
-background-color: #dfdb05;
+background-color:#10128a;
 border-radius: 4px;
 position: absolute;
 transition-property: transform;
@@ -143,7 +140,7 @@ transition-timing-function: ease;
 .hamburger-inner::before, .hamburger-inner::after {
 width: 35px;
 height: 3px;
-background-color: #dfdb05;
+background-color: #10128a;
 border-radius: 4px;
 position: absolute;
 transition-property: transform;
