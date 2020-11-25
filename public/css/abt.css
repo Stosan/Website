@@ -237,10 +237,10 @@ color:blue
     line-height: 2.625rem;
   }
   .at-user__title {
-    color: #14cdee;
-    font-family: 'Roboto', sans-serif;
+    color: #909090;
+    font-family: sans-serif;
     font-size: 1.5rem;
-    line-height: 2.375rem;
+    line-height: 2.375rem; font-weight: 400;
   }
   .at-social {
     margin: 0 0 -18px;
